@@ -1,5 +1,5 @@
 # Usage : pandoc -d bts-sio -o sortie.docx source.md
-reference-doc: ${.}/../reference-docs/modele-pandoc.dotx
+reference-doc: ${.}/../reference-docs/pandoc-reference-bts-sio-v2b.docx
 filters:
   - ${.}/../filters/linebreak.lua
 variables:
